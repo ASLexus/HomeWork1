@@ -7,40 +7,37 @@
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="match_parent"
+        android:layout_width="200dp"
         android:layout_height="70dp"
         android:text="@string/text_1"
-
         />
-
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="150dp"
         android:text="@string/text" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_marginTop="70dp"
+        android:layout_width="200dp"
+        android:layout_marginLeft="210dp"
         android:layout_height="70dp"
         android:text="@string/text_2" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_marginTop="140dp"
+        android:layout_width="200dp"
+        android:layout_marginTop="70dp"
         android:layout_height="70dp"
         android:text="@string/text_3" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="210dp"
         android:layout_height="70dp"
         android:text="@string/text_4" />
-
-
 </FrameLayout>

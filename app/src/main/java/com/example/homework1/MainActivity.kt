@@ -12,16 +12,20 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         button1.setOnClickListener {
-            Log.e("@!&","Click on but1!")
+            Log.e("@!&","Button #1 have been pressed")
+            textView.setText("Button 1 pressed")
         }
         button2.setOnClickListener {
-            Log.e("@!&","Click on but2!")
+            Log.e("@!&","Button #2 have been pressed")
+            textView.setText("Button 2 pressed")
         }
         button3.setOnClickListener {
-            Log.e("@!&","Click on but3!")
+            Log.e("@!&","Button #3 have been pressed")
+            textView.setText("Button 3 pressed")
         }
         button4.setOnClickListener {
-            Log.e("@!&","Click on but4!")
+            Log.e("@!&","Button #4 have been pressed")
+            textView.setText("Button 4 pressed")
         }
 
 
